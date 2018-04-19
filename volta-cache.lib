@@ -49,7 +49,12 @@ F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -66,7 +71,10 @@ F1 "Conn_01x01_Female" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_1x??_*
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
 $ENDFPLIST
 DRAW
 A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
@@ -83,7 +91,10 @@ F1 "Conn_01x03_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_1x??_*
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
 $ENDFPLIST
 DRAW
 A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
@@ -208,6 +219,26 @@ X Lamp 3 -250 100 120 R 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
+# EXI_LED
+#
+DEF EXI_LED LED 0 0 Y Y 1 F N
+F0 "LED" -200 100 50 H V L CNN
+F1 "EXI_LED" 0 -100 50 H V C CNN
+F2 "" 0 -300 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "Color" 0 -200 40 H V C CNN "Color"
+DRAW
+P 2 0 1 10 -20 60 20 100 N
+P 2 0 1 10 20 60 60 100 N
+P 2 0 1 10 50 50 50 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 5 0 1 10 20 100 25 95 25 105 15 105 20 100 N
+P 5 0 1 10 60 100 65 95 65 105 55 105 60 100 N
+X A 1 -200 0 150 R 50 50 1 1 P
+X C 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # EXI_Potenciómetro
 #
 DEF EXI_Potenciómetro POT 0 0 Y N 1 F N
@@ -235,6 +266,32 @@ DRAW
 S -130 40 130 -40 0 1 10 N
 X ~ 1 -200 0 70 R 50 50 1 1 P
 X ~ 2 200 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EXI_Ventilador
+#
+DEF EXI_Ventilador V 0 0 Y Y 1 F N
+F0 "V" 100 -200 50 H V C CNN
+F1 "EXI_Ventilador" 100 200 50 H V C CNN
+F2 "" 100 0 118 H V C CNN
+F3 "" 100 0 118 H V C CNN
+DRAW
+A -50 75 56 265 -265 0 1 0 N 0 100 0 50
+A 25 -150 56 1165 634 0 1 0 N 0 -100 50 -100
+A 26 25 78 -186 1091 0 1 0 N 100 0 0 100
+A 30 -15 72 120 1147 0 1 0 N 100 0 0 50
+A 65 80 87 -663 132 0 1 0 N 100 0 150 100
+A 75 -74 78 713 -1608 0 1 0 N 100 0 0 -100
+A 99 100 100 -894 0 0 1 0 N 100 0 200 100
+A 115 -70 72 1020 -1552 0 1 0 N 100 0 50 -100
+A 170 15 72 -1679 -652 0 1 0 N 100 0 200 -50
+A 174 -25 78 1613 -708 0 1 0 N 100 0 200 -100
+A 175 150 56 -1165 -634 0 1 0 N 150 100 200 100
+A 250 -75 56 1534 -1534 0 1 0 N 200 -50 200 -100
+S -50 150 250 -150 0 1 0 N
+X + 1 -200 100 150 R 50 50 1 1 P
+X - 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
