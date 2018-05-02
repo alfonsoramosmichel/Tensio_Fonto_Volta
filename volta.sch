@@ -15,112 +15,183 @@ LIBS:EXI_Resistores
 LIBS:EXI_Simbologia
 LIBS:EXI_Transistores
 LIBS:EXI_Varios
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
+LIBS:Analog_Switch
+LIBS:Audio
+LIBS:Battery_Management
+LIBS:Comparator
+LIBS:Connector_Generic
+LIBS:Connector_Generic_Shielded
+LIBS:Connector_Specialized
+LIBS:Converter_ACDC
+LIBS:Converter_DCDC
+LIBS:CPLD_Altera
+LIBS:CPLD_Xilinx
+LIBS:CPU
+LIBS:CPU_NXP_6800
+LIBS:CPU_NXP_68000
+LIBS:CPU_PowerPC
+LIBS:Device
+LIBS:Diode
+LIBS:Diode_Bridge
+LIBS:Diode_Laser
+LIBS:Display_Character
+LIBS:Display_Graphic
+LIBS:Driver_Display
+LIBS:Driver_FET
+LIBS:Driver_LED
+LIBS:Driver_Motor
+LIBS:Driver_Relay
+LIBS:DSP_Freescale
+LIBS:DSP_Microchip_DSPIC33
+LIBS:DSP_Motorola
+LIBS:DSP_Texas
+LIBS:Filter
+LIBS:FPGA_Actel
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex7
+LIBS:GPU
+LIBS:Graphic
+LIBS:Interface
+LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
+LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
+LIBS:Interface_Telecom
+LIBS:Interface_UART
+LIBS:Interface_USB
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
+LIBS:LED
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:Logic_LevelTranslator
+LIBS:Logic_Programmable
+LIBS:Logic_TTL_IEEE
+LIBS:MCU_AnalogDevices
+LIBS:MCU_Atmel_8051
+LIBS:MCU_Atmel_ATMEGA
+LIBS:MCU_Atmel_ATTINY
+LIBS:MCU_Atmel_AVR
+LIBS:MCU_Cypress
+LIBS:MCU_Infineon
+LIBS:MCU_Intel
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Module
+LIBS:MCU_NXP_ColdFire
+LIBS:MCU_NXP_HC11
+LIBS:MCU_NXP_HC12
+LIBS:MCU_NXP_HCS12
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_MAC7100
+LIBS:MCU_NXP_MCore
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_SiFive
+LIBS:MCU_SiliconLabs
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:Memory_Controller
+LIBS:Memory_EEPROM
+LIBS:Memory_EPROM
+LIBS:Memory_Flash
+LIBS:Memory_NVRAM
+LIBS:Memory_RAM
+LIBS:Memory_ROM
+LIBS:Memory_UniqueID
+LIBS:Motor
+LIBS:Oscillator
+LIBS:Potentiometer_Digital
 LIBS:power
-LIBS:powerint
 LIBS:Power_Management
+LIBS:Power_Protection
+LIBS:Power_Supervisor
 LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
+LIBS:Reference_Current
+LIBS:Reference_Voltage
+LIBS:Regulator_Controller
+LIBS:Regulator_Current
+LIBS:Regulator_Linear
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Switching
+LIBS:Relay
+LIBS:Relay_SolidState
+LIBS:RF
+LIBS:RF_AM_FM
+LIBS:RF_Bluetooth
+LIBS:RF_GPS
+LIBS:RF_Mixer
+LIBS:RF_Module
+LIBS:RF_RFID
+LIBS:RF_WiFi
+LIBS:RF_ZigBee
+LIBS:Sensor
+LIBS:Sensor_Audio
+LIBS:Sensor_Current
+LIBS:Sensor_Gas
+LIBS:Sensor_Humidity
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Motion
+LIBS:Sensor_Optical
+LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
+LIBS:Sensor_Temperature
+LIBS:Sensor_Touch
+LIBS:Sensor_Voltage
+LIBS:Switch
+LIBS:Timer
+LIBS:Timer_PLL
+LIBS:Timer_RTC
+LIBS:Transformer
+LIBS:Transistor_Array
+LIBS:Transistor_BJT
+LIBS:Transistor_FET
+LIBS:Transistor_IGBT
+LIBS:Triac_Thyristor
+LIBS:Valve
+LIBS:Video
 LIBS:volta-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
 Sheet 1 1
-Title "Fuente de Voltaje simétrica, fija y variable"
-Date ""
-Rev ""
-Comp "Universidad de Guadalajara"
-Comment1 ""
+Title "Fuente de voltaje con salidas simétrica 12, +5 fija y variable positiva"
+Date "2018-04-29"
+Rev "0.2"
+Comp "LABORATORIO DE AUTOMATIZACIÓN, CONTROL Y ROBÓTICA APLICADA"
+Comment1 "Fuente de voltaje para L.A.C.R.A."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -148,10 +219,10 @@ F 3 "" H 800 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EXI_KDC3 #IN1
+L EXI_KDC3 #IN101
 U 1 1 5ACCC4F9
 P 3550 2150
-F 0 "#IN1" H 3750 2300 40  0001 R CNN
+F 0 "#IN101" H 3750 2300 40  0001 R CNN
 F 1 "KDC3" H 3550 2050 40  0000 C CNN
 F 2 "" H 3650 2150 60  0000 C CNN
 F 3 "" H 3650 2150 60  0000 C CNN
@@ -261,10 +332,10 @@ Text Label 5450 7850 0    60   ~ 0
 NoConn ~ 5800 7750
 NoConn ~ 5800 8050
 $Comp
-L Conmutador_3p2t #IN2
+L Conmutador_3p2t #IN102
 U 1 1 5ACFA9C1
 P 6100 7650
-F 0 "#IN2" H 6100 8150 50  0001 C CNN
+F 0 "#IN102" H 6100 8150 50  0001 C CNN
 F 1 "Interruptor / Selector" H 6100 8150 50  0000 C CNN
 F 2 "TerminalBlock_4UCON:TerminalBlock_4UCON_19963_09x3.5mm_Straight" H 6100 7350 60  0001 C CNN
 F 3 "" H 6100 7350 60  0000 C CNN
@@ -322,10 +393,10 @@ F 3 "" H 1350 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03_Female #J1
+L Conn_01x03_Female #J101
 U 1 1 5ACFD97A
 P 2700 2200
-F 0 "#J1" H 2700 2400 50  0001 C CNN
+F 0 "#J101" H 2700 2400 50  0001 C CNN
 F 1 "120vAC / 60 hZ" H 2700 1900 50  0000 C CNN
 F 2 "" H 2700 2200 50  0001 C CNN
 F 3 "" H 2700 2200 50  0001 C CNN
@@ -541,34 +612,10 @@ F 3 "" H 5250 1000 50  0001 C CNN
 	1    5250 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Conn_01x01 J7
-U 1 1 5AD506F4
-P 3800 7900
-F 0 "J7" H 3800 8000 50  0000 C CNN
-F 1 "Pot_gnd" H 4050 7900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3800 7900 50  0001 C CNN
-F 3 "" H 3800 7900 50  0001 C CNN
-	1    3800 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J6
-U 1 1 5AD50956
-P 3800 7700
-F 0 "J6" H 3800 7800 50  0000 C CNN
-F 1 "Pot_adj" H 4050 7700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3800 7700 50  0001 C CNN
-F 3 "" H 3800 7700 50  0001 C CNN
-	1    3800 7700
-	1    0    0    -1  
-$EndComp
 Text Label 1900 7700 0    60   ~ 0
 adj
-Text Label 3250 7700 0    60   ~ 0
+Text Label 3550 7700 0    60   ~ 0
 adj
-Text Label 3250 7900 0    60   ~ 0
-comun
 Text Label 4000 2150 2    60   ~ 0
 sw
 Text Label 4600 2150 2    60   ~ 0
@@ -593,10 +640,10 @@ sw
 Text Label 1850 2100 2    60   ~ 0
 trans
 $Comp
-L Transformer_1P_SS #T1
+L Transformer_1P_SS #T101
 U 1 1 5ACCC90F
 P 5050 2350
-F 0 "#T1" H 5050 2600 50  0001 C CNN
+F 0 "#T101" H 5050 2600 50  0001 C CNN
 F 1 "5:1 - 5A" H 5050 2050 50  0000 C CNN
 F 2 "" H 5050 2350 50  0001 C CNN
 F 3 "" H 5050 2350 50  0001 C CNN
@@ -608,10 +655,10 @@ n24
 Text Label 5700 2150 2    60   ~ 0
 v24
 $Comp
-L Conn_01x01_Female #J6
+L Conn_01x01_Female #J106
 U 1 1 5ACFB14C
 P 7050 8550
-F 0 "#J6" H 7050 8650 50  0001 C CNN
+F 0 "#J106" H 7050 8650 50  0001 C CNN
 F 1 "+5V" H 7150 8550 50  0000 C CNN
 F 2 "" H 7050 8550 50  0001 C CNN
 F 3 "" H 7050 8550 50  0001 C CNN
@@ -619,10 +666,10 @@ F 3 "" H 7050 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01_Female #J5
+L Conn_01x01_Female #J105
 U 1 1 5ACFB0AE
 P 7050 8250
-F 0 "#J5" H 7050 8350 50  0001 C CNN
+F 0 "#J105" H 7050 8350 50  0001 C CNN
 F 1 "+Vv" H 7150 8250 50  0000 C CNN
 F 2 "" H 7050 8250 50  0001 C CNN
 F 3 "" H 7050 8250 50  0001 C CNN
@@ -630,10 +677,10 @@ F 3 "" H 7050 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01_Female #J4
+L Conn_01x01_Female #J104
 U 1 1 5ACFAFA0
 P 7050 7950
-F 0 "#J4" H 7050 8050 50  0001 C CNN
+F 0 "#J104" H 7050 8050 50  0001 C CNN
 F 1 "-12V" H 7200 7950 50  0000 C CNN
 F 2 "" H 7050 7950 50  0001 C CNN
 F 3 "" H 7050 7950 50  0001 C CNN
@@ -641,10 +688,10 @@ F 3 "" H 7050 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01_Female #J3
+L Conn_01x01_Female #J103
 U 1 1 5ACFAF0C
 P 7050 7650
-F 0 "#J3" H 7050 7750 50  0001 C CNN
+F 0 "#J103" H 7050 7750 50  0001 C CNN
 F 1 "+12V" H 7200 7650 50  0000 C CNN
 F 2 "" H 7050 7650 50  0001 C CNN
 F 3 "" H 7050 7650 50  0001 C CNN
@@ -652,10 +699,10 @@ F 3 "" H 7050 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01_Female #J2
+L Conn_01x01_Female #J102
 U 1 1 5ACFACC5
 P 7050 7350
-F 0 "#J2" H 7050 7450 50  0001 C CNN
+F 0 "#J102" H 7050 7450 50  0001 C CNN
 F 1 "Común" H 7250 7350 50  0000 C CNN
 F 2 "" H 7050 7350 50  0001 C CNN
 F 3 "" H 7050 7350 50  0001 C CNN
@@ -678,12 +725,12 @@ Text Label 1450 9200 2    60   ~ 0
 Text Label 2050 9650 0    60   ~ 0
 +5V
 $Comp
-L EXI_Ventilador V1
+L EXI_Ventilador #V101
 U 1 1 5AD63847
 P 2650 9750
-F 0 "V1" H 2750 9550 50  0000 C CNN
+F 0 "#V101" H 2750 9550 50  0001 C CNN
 F 1 "EXI_Ventilador" H 2750 9950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2750 9750 118 0001 C CNN
+F 2 "" H 2750 9750 118 0001 C CNN
 F 3 "" H 2750 9750 118 0000 C CNN
 	1    2650 9750
 	1    0    0    -1  
@@ -722,7 +769,7 @@ F 3 "" H 6850 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-volta C3
 U 1 1 5ADF6AC2
 P 1650 4450
 F 0 "C3" H 1675 4550 50  0000 L CNN
@@ -733,7 +780,7 @@ F 3 "" H 1650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-volta C4
 U 1 1 5ADF6EB5
 P 2700 4450
 F 0 "C4" H 2725 4550 50  0000 L CNN
@@ -788,7 +835,7 @@ F 3 "" H 1650 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-volta C7
 U 1 1 5ADF85AC
 P 5400 4750
 F 0 "C7" H 5425 4850 50  0000 L CNN
@@ -799,7 +846,7 @@ F 3 "" H 5400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-volta C8
 U 1 1 5ADF8AAD
 P 6400 4750
 F 0 "C8" H 6425 4850 50  0000 L CNN
@@ -843,7 +890,7 @@ F 3 "" H 2550 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-volta R1
 U 1 1 5ADF9E71
 P 2200 7450
 F 0 "R1" V 2280 7450 50  0000 C CNN
@@ -854,10 +901,10 @@ F 3 "" H 2200 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT #RV1
+L POT #RV101
 U 1 1 5ADFA282
 P 1700 7900
-F 0 "#RV1" V 1525 7900 50  0001 C CNN
+F 0 "#RV101" V 1525 7900 50  0001 C CNN
 F 1 "5k" V 1600 7900 50  0000 C CNN
 F 2 "" H 1700 7900 50  0001 C CNN
 F 3 "" H 1700 7900 50  0001 C CNN
@@ -865,10 +912,10 @@ F 3 "" H 1700 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT #RV2
+L POT #RV102
 U 1 1 5ADFA3A1
 P 1700 8300
-F 0 "#RV2" V 1525 8300 50  0001 C CNN
+F 0 "#RV102" V 1525 8300 50  0001 C CNN
 F 1 "1k" V 1600 8300 50  0000 C CNN
 F 2 "" H 1700 8300 50  0001 C CNN
 F 3 "" H 1700 8300 50  0001 C CNN
@@ -876,7 +923,7 @@ F 3 "" H 1700 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-volta C9
 U 1 1 5ADFAC7F
 P 1200 7850
 F 0 "C9" H 1225 7950 50  0000 L CNN
@@ -903,13 +950,13 @@ U 1 1 5ADFB5F7
 P 2900 7850
 F 0 "C10" H 2925 7950 50  0000 L CNN
 F 1 "1uF" H 2925 7750 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 2938 7700 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 2938 7700 50  0001 C CNN
 F 3 "" H 2900 7850 50  0001 C CNN
 	1    2900 7850
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-volta R2
 U 1 1 5ADFBDAA
 P 1450 9500
 F 0 "R2" V 1530 9500 50  0000 C CNN
@@ -920,12 +967,12 @@ F 3 "" H 1450 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D7
+L LED #D101
 U 1 1 5ADFC202
 P 1450 9900
-F 0 "D7" H 1450 10000 50  0000 C CNN
+F 0 "#D101" H 1450 10000 50  0001 C CNN
 F 1 "Activo" H 1450 9800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1450 9900 50  0001 C CNN
+F 2 "" H 1450 9900 50  0001 C CNN
 F 3 "" H 1450 9900 50  0001 C CNN
 	1    1450 9900
 	0    -1   -1   0   
@@ -1278,10 +1325,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 850  2850 950 
 Wire Wire Line
-	3250 7900 3600 7900
-Wire Wire Line
-	3250 7700 3600 7700
-Wire Wire Line
 	1850 2750 1850 2700
 Wire Wire Line
 	1850 2700 1550 2700
@@ -1397,4 +1440,40 @@ F 3 "" H 2050 9900 50  0001 C CNN
 	1    2050 9900
 	1    0    0    -1  
 $EndComp
+$Comp
+L GNDREF #PWR033
+U 1 1 5AE516D2
+P 3550 7600
+F 0 "#PWR033" H 3550 7350 50  0001 C CNN
+F 1 "GNDREF" H 3550 7450 50  0000 C CNN
+F 2 "" H 3550 7600 50  0001 C CNN
+F 3 "" H 3550 7600 50  0001 C CNN
+	1    3550 7600
+	0    1    1    0   
+$EndComp
+Text Label 1450 9700 0    60   ~ 0
+LED
+$Comp
+L Conn_01x04 J101
+U 1 1 5AE52F7C
+P 4050 7700
+F 0 "J101" H 4050 7900 50  0000 C CNN
+F 1 "Perifericos" H 4200 7400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4050 7700 50  0001 C CNN
+F 3 "" H 4050 7700 50  0001 C CNN
+	1    4050 7700
+	1    0    0    -1  
+$EndComp
+Text Label 3550 7800 0    60   ~ 0
+LED
+Wire Wire Line
+	3550 7800 3850 7800
+Text Label 3550 7900 0    60   ~ 0
++5V
+Wire Wire Line
+	3550 7900 3850 7900
+Wire Wire Line
+	3550 7600 3850 7600
+Wire Wire Line
+	3550 7700 3850 7700
 $EndSCHEMATC

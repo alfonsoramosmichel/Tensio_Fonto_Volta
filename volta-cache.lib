@@ -37,7 +37,7 @@ ENDDEF
 DEF 1N4001 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "1N4001" 0 -100 50 H V C CNN
-F2 "Diodes_THT:D_DO-41_SOD81_Horizontal_RM10" 0 -175 50 H I C CNN
+F2 "Diode_THT:D_DO-41_SOD81_Horizontal_RM10" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 1N4002 1N4003 1N4004 1N4005 1N4006 1N4007 BA157 BA158 BA159
 $FPLIST
@@ -54,11 +54,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C
+# C-RESCUE-volta
 #
-DEF C C 0 10 N Y 1 F N
+DEF C-RESCUE-volta C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
+F1 "C-RESCUE-volta" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -143,12 +143,7 @@ F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -165,10 +160,7 @@ F1 "Conn_01x01_Female" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
@@ -185,10 +177,7 @@ F1 "Conn_01x03_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
@@ -200,6 +189,29 @@ P 2 1 1 6 -50 100 -20 100 N
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x04
+#
+DEF Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -390,6 +402,8 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  LED*
+ LED_SMD:*
+ LED_THT:*
 $ENDFPLIST
 DRAW
 P 2 0 1 8 -50 -50 -50 50 N
@@ -469,7 +483,7 @@ ENDDEF
 #
 # POT
 #
-DEF POT RV 0 40 N N 1 F N
+DEF POT RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
 F1 "POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
@@ -500,11 +514,11 @@ P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 ENDDRAW
 ENDDEF
 #
-# R
+# R-RESCUE-volta
 #
-DEF R R 0 0 N Y 1 F N
+DEF R-RESCUE-volta R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "R-RESCUE-volta" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
